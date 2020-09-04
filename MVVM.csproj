@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{931FFB8B-78DC-6A5B-013B-8B94B8569F00}</ProjectGuid>
+    <ProjectGuid>{35509A4A-6251-F780-30AB-71F975B640FB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>MVVM</AssemblyName>
@@ -129,21 +129,6 @@
     <Compile Include="Assets\MVVM\Samples\SelectableCollectionView\ButtoModel.cs" />
     <Compile Include="Assets\MVVM\Samples\SelectableCollectionView\ButtonItem.cs" />
     <Compile Include="Assets\MVVM\Samples\SelectableCollectionView\OtherViewModel.cs" />
-    <Compile Include="Assets\MVVM\Test\BinaryToggle.cs" />
-    <Compile Include="Assets\MVVM\Test\EagleEyes.cs" />
-    <Compile Include="Assets\MVVM\Test\Puzzle\PuzzleManager.cs" />
-    <Compile Include="Assets\MVVM\Test\Task\ETaskState.cs" />
-    <Compile Include="Assets\MVVM\Test\Task\ETaskTriggerMode.cs" />
-    <Compile Include="Assets\MVVM\Test\Task\FirstTask.cs" />
-    <Compile Include="Assets\MVVM\Test\Task\ITask.cs" />
-    <Compile Include="Assets\MVVM\Test\Task\Props.cs" />
-    <Compile Include="Assets\MVVM\Test\Task\SecondTask.cs" />
-    <Compile Include="Assets\MVVM\Test\Task\TTaskInfo.cs" />
-    <Compile Include="Assets\MVVM\Test\Task\TaskBase.cs" />
-    <Compile Include="Assets\MVVM\Test\Task\TaskManager.cs" />
-    <Compile Include="Assets\MVVM\Test\Task\TaskProvider.cs" />
-    <Compile Include="Assets\MVVM\Test\Test.cs" />
-    <Compile Include="Assets\MVVM\Test\TestEvent.cs" />
     <Compile Include="Assets\MVVM\Types\EventArgType.cs" />
     <Compile Include="Assets\MVVM\Types\MVVMBase.cs" />
     <Compile Include="Assets\MVVM\Util\ObservableRangeCollection.cs" />
@@ -160,9 +145,7 @@
     <Compile Include="Assets\MVVM\View\ViewBase.cs" />
     <Compile Include="Assets\MVVM\ViewModel\IViewModel.cs" />
     <Compile Include="Assets\MVVM\ViewModel\ViewModelBase.cs" />
-    <None Include="Assets\MVVM\Test\Task\TaskClassDiagram.cd" />
     <None Include="Assets\MVVM\MVVM.asmdef" />
-    <None Include="Assets\MVVM\Test\Puzzle\PuzzleClassDiagram.cd" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -704,10 +687,10 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Data/Unity/Unity-MVVM/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Data/UnityProject/GraduationProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Data/Unity/Unity-MVVM/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Data/UnityProject/GraduationProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
