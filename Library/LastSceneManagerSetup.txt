@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/MVVM/Test/New Scene.unity
+- path: Assets/MVVM/Samples/MVVMTest/MVVMTest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
