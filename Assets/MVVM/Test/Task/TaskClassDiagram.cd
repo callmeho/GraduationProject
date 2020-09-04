@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TaskManager">
+    <Position X="2.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEQAQCJAAAAAAQAAAAEBAAAARAAAACEAQAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Unity-MVVM\Test\Task\TaskManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currTask" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TaskBase">
+    <Position X="5.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAAAAAAQAEAEAABAAAAAAAAAEAEACAAFAAAA=</HashCode>
+      <FileName>Assets\Unity-MVVM\Test\Task\TaskBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="taskInfo" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskProvider" Collapsed="true">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Unity-MVVM\Test\Task\TaskProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FirstTask">
+    <Position X="4.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Unity-MVVM\Test\Task\FirstTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SecondTask">
+    <Position X="7" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Unity-MVVM\Test\Task\SecondTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TTaskInfo">
+    <Position X="9.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAEAAAgBAAAAAAQBAQAEAQEAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Unity-MVVM\Test\Task\TTaskInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currState" />
+      <Field Name="triggerMode" />
+    </ShowAsAssociation>
+  </Struct>
+  <Interface Name="ITask" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Unity-MVVM\Test\Task\ITask.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ETaskState">
+    <Position X="13" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABoAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Unity-MVVM\Test\Task\ETaskState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ETaskTriggerMode">
+    <Position X="13" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Unity-MVVM\Test\Task\ETaskTriggerMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="CompleteEvent" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Unity-MVVM\Test\Task\TaskBase.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
